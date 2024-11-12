@@ -105,7 +105,6 @@ public class Main {
         String topArtist = scanner.nextLine();
         user.setTopArtist(topArtist);
 
-        // Adding songs and their streams
         System.out.print("How many songs do you want to add? ");
         int songCount = scanner.nextInt();
         scanner.nextLine(); 
